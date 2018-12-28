@@ -1,0 +1,86 @@
+.game {
+  font-family: sans-serif;
+  text-align: center;
+}
+.game-board {
+  position: auto;
+  top: 2rem;
+}
+.status {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: dimgrey;
+}
+.square {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5px;
+  border: solid 1px #c65146;
+  background-color: #ec6a5c;
+  text-align: center;
+  font-size: 8rem;
+  color: #e3dede;
+  font-weight: lighter;
+}
+.game-info li {
+  width: 12rem;
+  color: #383a3f;
+  font-size: 1rem;
+}
+.game-info {
+  text-align: -webkit-center;
+}
+.btn-history {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 15px;
+  color: #566270;
+  font-weight: bold;
+  background-color: #e0e3da;
+  margin-bottom: 5px;
+}
+.square:hover {
+  background-color: #af4034;
+  border: solid 1.1px #ec6a5c;
+}
+
+@media only screen and (max-width: 500px) {
+  .square {
+    width: 8rem;
+    font-size: 5rem;
+    /* height: 8rem; */
+  }
+}
+@media only screen and (max-width: 400px) {
+  .square {
+    width: 5rem;
+    height: 6rem;
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-height: 500px) {
+  .square {
+    width: 8rem;
+    height: 6rem;
+  }
+  .game {
+    /* font-family: sans-serif;] */
+    text-align: left;
+  }
+  .status {
+    text-align: center;
+  }
+}
+@media only screen and (max-heigth: 400px) {
+  .square {
+    width: 5rem;
+    height: 3rem;
+  }
+  .game {
+    /* font-family: sans-serif;] */
+    text-align: left;
+  }
+  .status {
+    text-align: center;
+  }
+}
